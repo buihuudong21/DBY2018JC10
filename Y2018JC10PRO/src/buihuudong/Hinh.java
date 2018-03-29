@@ -11,7 +11,7 @@ public class Hinh {
 		do {
 			System.out.println("bam p de tinh chu vi, s de tinh dien tich");
 			cantinh = scanner.nextLine().toLowerCase();
-		} while (!cantinh.equals("p"));
+		} while (!cantinh.equals("p")||!cantinh.equals("s"));
 
 		do {
 			System.out.println("v hinh vuong, g tam giac, c chu nhat, t hinh tron");
