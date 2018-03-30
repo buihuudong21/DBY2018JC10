@@ -1,6 +1,6 @@
-package com.teacher.oops.castingobject_instanceof;
+package teacher.com.javacore.oops.castingobject_instanceof;
 
-import com.teacher.common.Student;
+import teacher.com.javacore.oops.demoobject.Student;
 
 public class CastingObject_01 {
 

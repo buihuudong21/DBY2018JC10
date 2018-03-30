@@ -1,4 +1,4 @@
-package teacher.com.javacore.oops.castingobject_instanceof.castingdemo;
+package com.teacher.oops.castingobject_instanceof.castingdemo;
 
 public class Person {
 

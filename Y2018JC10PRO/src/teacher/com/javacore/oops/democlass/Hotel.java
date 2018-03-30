@@ -1,8 +1,8 @@
-package teacher.com.javacore.democlass;
+package teacher.com.javacore.oops.democlass;
 
 public class Hotel {
 	// 1. Mô tả các thuộc tính( properties/attribute/data)
-	private String name;
+	protected String name; // default access modifier
 	private String color;
 	private int totalRoom;
 	private int bookedRoom;
@@ -23,8 +23,9 @@ public class Hotel {
 
 	// 3. Các phương thức mà đối tượng có (các hành vi)
 
-	public String printName() {
-		return name;
+	String printName() {
+		String strName = this.name; // biến local
+		return strName;
 	}
 
 	public void setName(String name) {

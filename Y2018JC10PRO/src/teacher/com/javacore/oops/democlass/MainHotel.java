@@ -1,4 +1,4 @@
-package teacher.com.javacore.democlass;
+package teacher.com.javacore.oops.democlass;
 
 public class MainHotel {
 
