@@ -1,10 +1,13 @@
-package com.teacher.oops.abstract_class.abstract_demo_01;
+package teacher.com.javacore.oops.abstract_class.abstract_demo_01;
 
 public class Main_Test {
 
 	public static void main(String[] args) {
 
 		Geometric obj1 = new Circle(10);
+		Geometric obj2 = new Rectangle(12, 555, "SDFD");
+
+		displayGeometricObject(obj2);
 
 	}
 

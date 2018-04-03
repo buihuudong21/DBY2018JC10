@@ -1,4 +1,4 @@
-package com.teacher.oops.abstract_class.abstract_demo_01;
+package teacher.com.javacore.oops.abstract_class.abstract_demo_01;
 
 import java.util.Date;
 

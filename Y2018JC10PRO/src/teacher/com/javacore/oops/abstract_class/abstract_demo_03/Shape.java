@@ -1,4 +1,4 @@
-package com.teacher.oops.abstract_class.abstract_demo_03;
+package teacher.com.javacore.oops.abstract_class.abstract_demo_03;
 
 public abstract class Shape {
 	private String color = "Blue";
