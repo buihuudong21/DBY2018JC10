@@ -1,4 +1,4 @@
-package com.teacher.oops.interface_object.interface_full_demo;
+package teacher.com.javacore.oops.interface_object.interface_full_demo;
 
 public class Circle implements IShape, IShapOther, IShap2Other {
 	private double radius;
