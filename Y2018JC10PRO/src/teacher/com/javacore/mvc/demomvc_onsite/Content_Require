@@ -1,0 +1,7 @@
+Demo ve MVC
+
+Yêu cầu: Thực hiện viết ứng dụng tính +, -, *, / hai số cho trước.
+Lưu ý: Có biến option để chọn phép tính.
+
+btOption "+", "-", "*" và "/"
+

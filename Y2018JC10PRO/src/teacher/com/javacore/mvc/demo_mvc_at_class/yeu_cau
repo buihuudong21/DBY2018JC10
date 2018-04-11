@@ -1,0 +1,7 @@
+Yêu cầu:
+- Nhập từ bàn phím 2 số nguyên a và b
+- Cho phép chọn các phép tính (+,-,*,/)
+- Return kết quả của phép tính ra màn hình
+
+
+Note: Viết theo mô hình MVC
