@@ -1,0 +1,20 @@
+
+Bài tập thực hành: 
+	Thực hành để nắm kiến thức về:
+		+ Mảng tĩnh, object
+		+ MVC Model in java
+Yêu cầu:
+	- Nhập vào một mảng các sinh viên (tối đa 20): id,name, mark
+	- trả ra chỉ số của các sinh viên có điểm thấp nhất hoặc điểm cao nhất (optional by input)
+	- Sắp xếp tăng dần/giảm dần theo điểm của SV => In ra màn hình.
+Note: Lập trình theo hướng đối tượng và theo mô hình MVC
+
+[5,3.5,9,8,8,6,8,3.5,8,9,9,3.5,9]
+[0] = 1
+[1] = 7
+
+=> Trả ra chi số sinh viên có điểm thấp nhất:
+[1,7,11]
+[2,9,10,12]
+	
+	

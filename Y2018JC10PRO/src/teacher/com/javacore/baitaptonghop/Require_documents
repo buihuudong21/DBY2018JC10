@@ -1,0 +1,10 @@
+Mô tả ứng dụng: Xây dựng một chương trình phần mềm quản lý khách hàng
+- Xây dựng chương trình theo hướng đối tượng
+- Hiển thị thông tin khách hàng ra màn hình (client): Console, màn hình mobile, web...
+
+* Các kiến thức sử dụng:
+- Lập trình oops: objects (properties, methods), interface/abstract class
+- hiển thị: tạm dùng console/ java swing
+
+
+
