@@ -46,8 +46,8 @@ public class MainApp {
 		// Khoi tao ten 1 CN va dua 2 KH customer1 va 2 vao CN
 		Branch branch = new Branch("Ngan Hang ACB - CN Phan Ton");
 		// Dua khach hang vao mang
-		branch.addCustomer("Dong", 500000);
-		branch.addCustomer("Dong", 600000);
+		branch.addCustomer("Đông", 500000);
+		branch.addCustomer("Đông", 600000);
 		branch.addCustomer("Dong", 700000);
 		branch.addCustomer("Dong", 800000);
 		branch.addCustomer("Quynh", 600000);
@@ -64,11 +64,6 @@ public class MainApp {
 						"Số tiền gửi lần " + (j + 1) + " là: " + branch.getArrCustomer()[i].getDepositAmounted()[j]);
 			}
 		}
-
-		// System.out.println(customer.getName());
-		// for (int i = 0; i < customer.getDepositAmounted().length; i++) {
-		// System.out.println(customer.getDepositAmounted()[i]);
-		// }
 
 	}
 
