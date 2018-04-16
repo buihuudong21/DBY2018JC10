@@ -1,4 +1,4 @@
-package com.teacher.generics.generic_class.demoonsite.generic_class;
+package teacher.com.javacore.generics.generic_class.demoonsite.generic_class;
 
 import java.util.Iterator;
 
