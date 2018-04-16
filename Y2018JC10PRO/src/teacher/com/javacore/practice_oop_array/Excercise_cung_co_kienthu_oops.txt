@@ -1,0 +1,43 @@
+﻿1. Bài tập củng cố về mảng
+Yêu cầu: Lập trình oops và kiến thức mảng tĩnh, với các yêu cầu sau:
+* Mô tả:
+	- Một Bank (ngân hàng) có các chi nhánh (branches) và mỗi branch có nhiều khách hàng (customers)
+	- Một customer có nhiều lần giao dịch (transactions) gửi tiền với một branch của bank.
+* Yêu cầu kết quả:
+	- Nhập vào tên Ngân hàng
+	- Nhập vào tên chi nhánh (thuộc Ngân hàng)
+	- Nhập vào tên danh sách các KH và số tiền giao dịch theo một CN
+	- Hiển thị ra các số tiền đã giao dịch của một khách hàng theo từng CN
+
+* Phân tích yêu cầu bài toán:
+- Gồm các đối tượng sau:
+	+ đối tượng Khách hàng (customer) gồm:
+		* Thuộc tính:
+			+ tên khách hàng       //Tên của khách hàng
+			+ một mảng kiểu double //Chứa danh sách các lần gửi tiền của KH
+		* Phương thức:
+			+ Có hàm tạo có và không tham số
+			+ Có hàm thêm số tiền vào mảng để mỗi khi giao dịch thì sẽ gọi hàm này
+	+ đối tượng branch (chi nhánh)
+		* Thuộc tính: 
+			+ tên chi nhánh
+			+ một mảng kiểu Customer //Mảng chứa một danh sách các khách hàng
+		* Phương thức:
+			+ thêm mới một khách hàng vào mảng (Một khách hàng sẽ có tên và số tiền giao dịch)
+			+ thêm một khách hàng đã có tên (và khách hàng này sẽ được thêm số tiền giao dịch)
+		
+	+ đối tượng bank (ngân hàng)
+		* Thuộc tính:
+			+ tên ngân hàng 
+			+ một mảng các chi nhánh.
+		* Phương thức:
+			+ Thêm một chi nhánh
+			+ thêm mới một khách hàng (với tên KH và số tiền giao dịch) và một chi nhánh đó
+			+ Hiển thị danh sách giao dịch của từng khách hàng của từng chi nhánh ra màn hình 
+
+			
+
+
+
+
+
