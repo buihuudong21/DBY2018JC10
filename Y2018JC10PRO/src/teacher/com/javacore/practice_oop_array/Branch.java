@@ -35,8 +35,8 @@ public class Branch {
 
 		return false;
 	}
-	// 2. Them mot lan gui ma KH da co ten
 
+	// 2. Them mot lan gui ma KH da co ten
 	private boolean addCustomerDeposit(String name, double amount) {
 		// Ta kiem tra xem name da co chua? neu co thi add amount vao
 		Customer cust = findCustomer(name);

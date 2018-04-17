@@ -1,4 +1,4 @@
-package com.teacher.generics.generic_class.sample02;
+package teacher.com.javacore.generics.generic_class.sample02;
 
 public class AppTest {
 
