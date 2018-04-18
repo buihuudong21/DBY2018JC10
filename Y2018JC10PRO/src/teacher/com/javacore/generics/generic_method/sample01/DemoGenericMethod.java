@@ -1,4 +1,4 @@
-package com.teacher.generics.generic_method.sample01;
+package teacher.com.javacore.generics.generic_method.sample01;
 
 public class DemoGenericMethod {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.teacher.generics.generictypebounded;
+package teacher.com.javacore.generics.generictypebounded;
 
 public class Triangle extends Shape {
 	private double radius;

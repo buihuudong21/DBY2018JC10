@@ -1,6 +1,6 @@
-package com.teacher.generics.wildcardgeneric.WildCardNeedDemo;
+package teacher.com.javacore.generics.wildcardgeneric.WildCardNeedDemo;
 
-import com.teacher.generics.generic_class.demoonsite.generic_class.StackGeneric;
+import teacher.com.javacore.generics.generic_class.demoonsite.generic_class.StackGeneric;
 
 public class WildCardNeedDemo {
 	public static void main(String[] args) {

@@ -1,8 +1,12 @@
-package com.teacher.generics.generictypebounded;
+package teacher.com.javacore.generics.generictypebounded;
 
 public class Rectangle extends Shape {
 	private double height;
 	private double width;
+
+	public Rectangle() {
+		// TODO Auto-generated constructor stub
+	}
 
 	public Rectangle(double height, double width) {
 		super();

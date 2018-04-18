@@ -1,7 +1,6 @@
-package com.teacher.generics.wildcardgeneric.SuperWildCardDemo;
+package teacher.com.javacore.generics.wildcardgeneric.SuperWildCardDemo;
 
-import com.teacher.generics.generic_class.demoonsite.generic_class.StackGeneric;
-import com.teacher.generics.wildcardgeneric.AnyWildCarDemo.AnyWildCardDemo;
+import teacher.com.javacore.generics.generic_class.demoonsite.generic_class.StackGeneric;
 
 public class SuperWildCardDemo {
 	public static void main(String[] args) {
@@ -11,7 +10,7 @@ public class SuperWildCardDemo {
 		stack2.pushStack(2);
 		stack1.pushStack("Sun");
 		add(stack1, stack2);
-		AnyWildCardDemo.print(stack2);
+		// AnyWildCardDemo.print(stack2);
 	}
 
 	public static <T> void add(StackGeneric<T> stack1, StackGeneric<? super T> stack2) {

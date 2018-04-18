@@ -1,4 +1,4 @@
-package com.teacher.generics.generictypebounded;
+package teacher.com.javacore.generics.generictypebounded;
 
 public abstract class Shape {
 

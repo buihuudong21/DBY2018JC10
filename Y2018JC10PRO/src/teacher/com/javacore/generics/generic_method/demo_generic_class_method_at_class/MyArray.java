@@ -1,4 +1,4 @@
-package teacher.com.javacore.generics.generic_class.sample02;
+package teacher.com.javacore.generics.generic_method.demo_generic_class_method_at_class;
 
 public class MyArray<T> {
 	private T[] array;
@@ -13,7 +13,6 @@ public class MyArray<T> {
 	}
 
 	public MyArray() {
-
 	}
 
 	public MyArray(T[] array, int size) {
@@ -36,7 +35,7 @@ public class MyArray<T> {
 	}
 
 	// In noi dung mang T ra ngoai
-	public <E> void displayInforArray(E[] e) {
+	public static <E> void displayInforArray(E[] e) {
 		for (E element : e) {
 			System.out.println(element);
 		}
