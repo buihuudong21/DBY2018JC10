@@ -1,4 +1,4 @@
-package com.teacher.arrays.dynamic_array.examples.example01;
+package teacher.com.javacore.arrays.dynamic_array.examples.example01;
 
 import java.util.List;
 

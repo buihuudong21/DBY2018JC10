@@ -1,4 +1,4 @@
-package com.teacher.arrays.dynamic_array.democollection;
+package teacher.com.javacore.arrays.dynamic_array.democollection;
 
 import java.util.ArrayList;
 import java.util.Collections;

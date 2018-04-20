@@ -1,4 +1,4 @@
-package Teacher.Y2017JC79.arrays.dynamic_array.collectionframework.TheComparableAndIterable.Comparator.Sample01;
+package teacher.com.javacore.arrays.dynamic_array.collectionframework.TheComparableAndIterableInterface.Comparator.Sample01;
 
 import java.util.Comparator;
 

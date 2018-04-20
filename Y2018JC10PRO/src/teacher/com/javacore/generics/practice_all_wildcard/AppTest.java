@@ -10,16 +10,17 @@ public class AppTest {
 		MyListPerson<Student> student = new MyListPerson<>();
 		MyListPerson<Person> person = new MyListPerson<>();
 		MyListPerson<StudentSpec> studentSpect = new MyListPerson<>();
-
+		MyListPerson<Customer> customer = new MyListPerson<>();
 		// Call display
 		displayInfor(student);
 		displayInfor(person);
 		displayInfor(studentSpect);
+		displayInfor(customer);
 
 	}
 
 	// Phuong thuc demo truong hop 1 (?)
-	public static <T> void displayInfor(MyListPerson<? super T> arrData) {
+	public static void displayInfor(MyListPerson<? super Student> arrData) {
 
 	}
 

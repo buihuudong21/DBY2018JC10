@@ -1,0 +1,16 @@
+
+
+
+
+Nội dung:
+	- Có một tập các sinh viên. Mỗi sinh viên có các thuộc tính: id, name, mark.
+Yêu cầu:
+	- Nhập vào n sinh viên vào mảng (arraylist)
+	- Hiển thị danh sách sinh viên từ mảng ra
+	- sắp xếp tăng/giảm dần theo Mark
+	
+Mục đích:
+	- dùng collection framework trong java
+	- cách sử dụng interface comparable/comparator trong java để có thể dùng so sánh 2 đối tượng
+	theo một tiêu chí x nào đó do user define.
+	- Demo về Lambda Expression

@@ -1,4 +1,4 @@
-package com.teacher.arrays.dynamic_array.collectionframework.TheComparableAndIterableInterface.Comparable;
+package teacher.com.javacore.arrays.dynamic_array.collectionframework.TheComparableAndIterableInterface.Comparable;
 
 public class Student implements Comparable<Student> {
 	private String sFullName;
