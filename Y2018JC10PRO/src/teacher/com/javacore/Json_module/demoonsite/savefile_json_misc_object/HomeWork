@@ -1,0 +1,17 @@
+ - Nhập vào 1 danh sách các Nhân viên của một công ty gồm các thuộc tính sau:
+    1, id (int) => mã nhân viên
+    2, sFullName (String) => Tên nhân viên
+    3, sAddress (Address) => Địa chỉ ( lưu ý: Địa chỉ là một đối tượng khác Address address)
+    4, dSalary (double)
+Yêu cầu: 
+    - Write xuống một file emplyee.json có dạng:
+{
+  "ReturnCode":0,
+  "ErrorMessage": null,
+  "TotalRecord":<total>,
+  "Data": [ {"id": 100, "sFullName": "Mr A",...},
+            {"id": 200, "sFullName": "Mr B",...},
+            {"id": 300, "sFullName": "Mr C",...}
+          ]         
+ }    
+ 
