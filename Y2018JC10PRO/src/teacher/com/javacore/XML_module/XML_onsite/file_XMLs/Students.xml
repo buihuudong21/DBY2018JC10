@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Students-info>
+	<Student id="1">
+		<id>1</id>
+		<fullname>Trần Đông Vy</fullname>
+		<mark>8.5</mark>
+	</Student>
+	<Student id="2">
+		<id>2</id>
+		<fullname>Nguyễn Thắng</fullname>
+		<mark>8.5</mark>
+	</Student>
+
+	<Student id="3">
+		<id>3</id>
+		<fullname>Phạm Văn Trọng</fullname>
+		<mark>8.5</mark>
+	</Student>
+	<Student id="4">
+		<id>4</id>
+		<fullname>Nguyễn Thanh Tâm</fullname>
+		<mark>8.5</mark>
+	</Student>
+	<Student id="5">
+		<id>5</id>
+		<fullname>Hoàng Đạt</fullname>
+		<mark>8.5</mark>
+	</Student>
+	<Student id="6">
+		<id>6</id>
+		<fullname>Nguyễn Văn A</fullname>
+		<mark>8.5</mark>
+	</Student>
+	<Student id="7">
+		<id>7</id>
+		<fullname>Bùi Hữu Đông</fullname>
+		<mark>9.5</mark>
+	</Student>
+
+</Students-info>

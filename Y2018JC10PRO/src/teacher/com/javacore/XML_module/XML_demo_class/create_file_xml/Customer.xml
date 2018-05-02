@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customers>
+	<customer id="01">
+		<custid>01</custid>
+		<custname>Nguyễn Văn A</custname>
+		<salary>15000000</salary>
+	</customer>
+	<customer id="02">
+		<custid>02</custid>
+		<custname>Võ Thống</custname>
+		<salary>16000000</salary>
+	</customer>
+	<customer id="03">
+		<custid>03</custid>
+		<custname>Nguyễn Hữu Sơn</custname>
+		<salary>17000000</salary>
+	</customer>
+	<customer id="04">
+		<custid>04</custid>
+		<custname>Nguyễn Đức Vinh</custname>
+		<salary>18000000</salary>
+	</customer>
+	<customer id="05">
+		<custid>05</custid>
+		<custname>Vũ Diễm Quỳnh</custname>
+		<salary>19000000</salary>
+	</customer>
+	<customer id="06">
+		<custid>06</custid>
+		<custname>Trần Thùy Trang</custname>
+		<salary>125000000</salary>
+	</customer>
+</customers>
