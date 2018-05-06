@@ -1,0 +1,18 @@
+Mô tả bài toán:
+Giả sử có hai công việc là:
+(1) in ra màn hinh n lần ký c nào đó
+(2) in ra màn hình số tự nhiên liên tiếp nhau từ 1 đến k nào đó
+
+
+Làm thế nào để giải quyết việc là:
+displayChar('a',500);  //10s
+displayChar('b',1000); ///20s
+displayNumber(10000);//20s
+
+10+20+20 => lần lượt
+=> sử dụng Đa luồng?
+
+* Giải pháp:
+1. Tạo ra các nhiệm vụ(việc cần làm).
+2. Viết lớp kế thừa từ Thread (class built-in của Java)
+3. Add việc vào Thread để gọi thực hiện
