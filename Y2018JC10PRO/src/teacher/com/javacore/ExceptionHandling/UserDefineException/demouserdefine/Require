@@ -1,0 +1,8 @@
+
+Yêu cầu:
+	Lập trình ứng dụng bắt lỗi khi người dùng nhập tuổi <18.
+	Message: "Bạn chưa đủ tuổi nhập ngũ"
+
+Cách làm:
+	(1). Ta định nghĩa ra một lớp bình thường => kế thừa lớp Exception
+	(2). Định nghĩa lớp thứ 2 sử dụng lại (1)

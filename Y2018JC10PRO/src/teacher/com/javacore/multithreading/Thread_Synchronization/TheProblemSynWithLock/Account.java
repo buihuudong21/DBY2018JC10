@@ -1,4 +1,4 @@
-package com.teacher.multithreading.Thread_Synchronization.TheProblemSynWithLock;
+package teacher.com.javacore.multithreading.Thread_Synchronization.TheProblemSynWithLock;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
