@@ -11,7 +11,8 @@ public class Account {
 		this.balance = balance;
 	}
 
-	public synchronized void deposit(double amount) {
+	// synchronized
+	public void deposit(double amount) {
 		// double newBalance = this.getBalance() + amount;
 		// synchronized (this) {
 		balance += amount;
