@@ -1,4 +1,4 @@
-package com.teacher.socket_programming.MODULES02;
+package teacher.com.javacore.socket_programming.MODULES02;
 
 import java.io.BufferedReader;
 import java.io.IOException;

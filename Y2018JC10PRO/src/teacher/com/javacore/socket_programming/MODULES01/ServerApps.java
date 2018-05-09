@@ -15,7 +15,7 @@ public class ServerApps {
 	 */
 	public static void main(String[] args) throws IOException {
 		// 1. Khai báo và khởi tạo Socket Server<lắng nghe cổng 9001>
-		ServerSocket objSServer = new ServerSocket(9999);
+		ServerSocket objSServer = new ServerSocket(9001);
 		try {
 			System.out.println("Server is running......");
 

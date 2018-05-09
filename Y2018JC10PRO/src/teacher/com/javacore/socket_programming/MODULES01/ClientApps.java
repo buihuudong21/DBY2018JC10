@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 public class ClientApps {
 	public static void main(String[] args) throws IOException {
 		// 1. Khai báo & khởi tạo đối tượng Socket Client
-		Socket objSClient = new Socket("192.168.137.190", 9999);
+		Socket objSClient = new Socket("localhost", 9001);
 
 		// 2. Khai báo & khởi tạo đối tượng của Stream
 		BufferedReader objIO = new BufferedReader(new InputStreamReader(objSClient.getInputStream()));
