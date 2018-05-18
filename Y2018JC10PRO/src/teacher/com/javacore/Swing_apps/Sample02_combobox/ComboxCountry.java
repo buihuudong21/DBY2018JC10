@@ -1,4 +1,4 @@
-package com.teacher.Swing_apps.Sample02_combobox;
+package teacher.com.javacore.Swing_apps.Sample02_combobox;
 
 import java.awt.BorderLayout;
 import java.awt.event.ItemEvent;

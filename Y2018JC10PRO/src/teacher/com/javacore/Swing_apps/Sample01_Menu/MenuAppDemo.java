@@ -4,7 +4,6 @@ import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -15,7 +14,6 @@ import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
-import javax.swing.KeyStroke;
 
 public class MenuAppDemo extends JFrame implements ActionListener {
 	private JTextField jtfNum01, jtfNum02, jtfResult;
@@ -45,10 +43,14 @@ public class MenuAppDemo extends JFrame implements ActionListener {
 		operationMenu.add(jmiDiv = new JMenuItem("Divide", 'D'));
 		exitMenu.add(jmiClose = new JMenuItem("Close", 'C'));
 
-		jmiAdd.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_A, ActionEvent.CTRL_MASK));
-		jmiSub.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, ActionEvent.CTRL_MASK));
-		jmiMul.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_M, ActionEvent.CTRL_MASK));
-		jmiDiv.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, ActionEvent.CTRL_MASK));
+		// jmiAdd.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_A,
+		// ActionEvent.CTRL_MASK));
+		// jmiSub.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S,
+		// ActionEvent.CTRL_MASK));
+		// jmiMul.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_M,
+		// ActionEvent.CTRL_MASK));
+		// jmiDiv.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D,
+		// ActionEvent.CTRL_MASK));
 
 		JPanel p1 = new JPanel(new FlowLayout());
 

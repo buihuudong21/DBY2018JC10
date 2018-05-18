@@ -1,0 +1,9 @@
+
+
+Desc:
+- Một khách hàng vay Ngân hàng một số tiền balance.  
+Hỏi: Sau n năm thì tổng lãi phải trả là bao nhiêu và hàng tháng phải trả lãi là bao nhiêu?
+Biết:
+- Lãi suất hàng năm
+- biết dư nợ
+- số năm (option)

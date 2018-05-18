@@ -1,12 +1,13 @@
-package teacher.com.javacore.Swing_apps.Sample02_combobox;
+package teacher.com.javacore.Swing_apps.demo_javaswing_at_class.demo_show_frame_gui;
 
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
-public class App {
+public class AppTest {
 
 	public static void main(String[] args) {
+
 		try {
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		} catch (ClassNotFoundException e) {
@@ -22,13 +23,20 @@ public class App {
 
 			e.printStackTrace();
 		}
+		// End try..catch
+
 		SwingUtilities.invokeLater(new Runnable() {
 
 			@Override
 			public void run() {
-				new ComboxCountry();
+				new MainAppFrame();
 			}
 		});
+
+		// Thử gọi
+		// Loan loan = new Loan();
+		// System.out.println("Lãi hàng tháng: " + loan.getMonthlyInterest());
+		// System.out.println("Tổng lãi 1 năm: " + loan.getTotalinterest());
 
 	}
 
