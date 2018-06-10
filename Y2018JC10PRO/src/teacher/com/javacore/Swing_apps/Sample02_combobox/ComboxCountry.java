@@ -4,7 +4,6 @@ import java.awt.BorderLayout;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 
-import javax.swing.ImageIcon;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -14,18 +13,21 @@ import javax.swing.border.EmptyBorder;
 public class ComboxCountry extends JFrame {
 	private String[] countryList = { "Việt Nam", "USA", "Trung Quốc", "Nhật Bản", "Hàn Quốc", "Triều Tiên" };
 	// chứa ảnh của các tổng thống
-	private ImageIcon[] imageIcon = {
-			new ImageIcon(
-					"D:\\git\\Y2017JC85DB\\Y2017JC85PRO\\src\\com\\teacher\\Swing_apps\\image/VietNam_President.jpg"),
-			new ImageIcon("D:\\git\\Y2017JC85DB\\Y2017JC85PRO\\src\\com\\teacher\\Swing_apps\\image/USA_President.jpg"),
-			new ImageIcon(
-					"D:\\git\\Y2017JC85DB\\Y2017JC85PRO\\src\\com\\teacher\\Swing_apps\\image/China_President.jpg"),
-			new ImageIcon(
-					"D:\\git\\Y2017JC79DB\\Y2017JC79PRO\\src\\Teacher\\Y2017JC79\\Swing_apps\\image/Japan_President.jpg"),
-			new ImageIcon(
-					"D:\\git\\Y2017JC79DB\\Y2017JC79PRO\\src\\Teacher\\Y2017JC79\\Swing_apps\\image/Hanquoc_President.jpg"),
-			new ImageIcon(
-					"D:\\git\\Y2017JC79DB\\Y2017JC79PRO\\src\\Teacher\\Y2017JC79\\Swing_apps\\image/Trieutien_President.jpg") };
+	/*
+	 * private ImageIcon[] imageIcon = { new ImageIcon(
+	 * "D:\\git\\Y2017JC85DB\\Y2017JC85PRO\\src\\com\\teacher\\Swing_apps\\image/VietNam_President.jpg"
+	 * ), new ImageIcon(
+	 * "D:\\git\\Y2017JC85DB\\Y2017JC85PRO\\src\\com\\teacher\\Swing_apps\\image/USA_President.jpg"
+	 * ), new ImageIcon(
+	 * "D:\\git\\Y2017JC85DB\\Y2017JC85PRO\\src\\com\\teacher\\Swing_apps\\image/China_President.jpg"
+	 * ), new ImageIcon(
+	 * "D:\\git\\Y2017JC79DB\\Y2017JC79PRO\\src\\Teacher\\Y2017JC79\\Swing_apps\\image/Japan_President.jpg"
+	 * ), new ImageIcon(
+	 * "D:\\git\\Y2017JC79DB\\Y2017JC79PRO\\src\\Teacher\\Y2017JC79\\Swing_apps\\image/Hanquoc_President.jpg"
+	 * ), new ImageIcon(
+	 * "D:\\git\\Y2017JC79DB\\Y2017JC79PRO\\src\\Teacher\\Y2017JC79\\Swing_apps\\image/Trieutien_President.jpg")
+	 * };
+	 */
 
 	private JPanel contentPane;
 
@@ -71,7 +73,7 @@ public class ComboxCountry extends JFrame {
 
 	public void setDisplay(int index) {
 		contentPane.setLayout(new BorderLayout(5, 5));
-		jlableImage.setIcon(imageIcon[index]);
+		// jlableImage.setIcon(imageIcon[index]);
 
 	}
 

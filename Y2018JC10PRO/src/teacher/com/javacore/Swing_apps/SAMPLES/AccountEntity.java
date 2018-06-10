@@ -1,4 +1,4 @@
-package com.teacher.Swing_apps.SAMPLES;
+package teacher.com.javacore.Swing_apps.SAMPLES;
 
 public class AccountEntity {
 	private int AccId;

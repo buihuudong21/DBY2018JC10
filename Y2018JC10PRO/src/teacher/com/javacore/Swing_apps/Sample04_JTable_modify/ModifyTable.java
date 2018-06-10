@@ -26,11 +26,13 @@ import javax.swing.table.TableColumn;
 import javax.swing.table.TableColumnModel;
 
 public class ModifyTable extends JFrame {
-	private String[] columnNames = { "Country", "Capital", "Population in Millions", "Democracy" };
+	private String[] columnNames = { "Stt", "Ho ten", "Dia chi", "Ten Lop", "So chung minh", "So dien thoai" };
 
-	private Object[][] rowData = { { "Canada", "Ottawa", 32, true }, { "United Kingdom", "London", 60, true },
-			{ "Germany", "Berlin", 83, true }, { "France", "Paris", 60, true }, { "Norway", "Oslo", 4.5, true },
-			{ "India", "New Delhi", 1046, true } };
+	private Object[][] rowData = {
+			{ "1", "Bui Huu Dong", "Huynh Tan Phat-Q7-TPHCM", "Y2018JC10", "1323464", "012545455" },
+			{ "2", "Nguyen Huynh Minh Thuan", "Ton Dan-Q4-TPHCM", "Y2018JC10", "4554546", "057494221" },
+			{ "3", "Bui Huu", " Tan Phat-Q7-TPHCM", "Y2018JC10", "1364", "012545" },
+			{ "4", "Bui  Dong", "Huynh -Q7-TPHCM", "Y2018JC10", "1334", "012545" } };
 
 	private DefaultTableModel tableModel = new DefaultTableModel(rowData, columnNames);
 	private JTable jTable1 = new JTable(tableModel);
